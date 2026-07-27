@@ -40,11 +40,6 @@ padded to the full curve width.
 > **Note**: this crate performs no constant-time guarantees and only operates
 > on *public* keys. Do not use it with secret material.
 
-## Roadmap
-
-- Interop with the rust-crypto ecosystem (`elliptic-curve`, `k256`, `p256`, ...)
-  behind feature flags.
-
 ## License
 
 MIT
