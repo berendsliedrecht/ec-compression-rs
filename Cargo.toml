@@ -1,0 +1,18 @@
+[package]
+name = "ec-compression"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.81"
+description = "no_std compression and decompression of elliptic curve public keys (secp256k1, P-256, P-384, P-521)"
+license = "MIT"
+categories = ["no-std", "no-std::no-alloc", "cryptography"]
+keywords = ["elliptic-curve", "compression", "no-std", "p256", "secp256k1"]
+
+[dependencies]
+
+[dev-dependencies]
+k256 = "0.13.4"
+p256 = "0.13.2"
+p384 = "0.13.1"
+p521 = "0.13.3"
+rand_core = { version = "0.6", features = ["getrandom"] }
